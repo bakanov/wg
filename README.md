@@ -4,10 +4,14 @@
 
 Установка:
 $ pip install -r requirements.txt
+
 $ cd allure-nose
+
 $ pip install .
 
+
 Запуск генерации:
+
 $ python initialize_db.py
 
 Запуск теста:
