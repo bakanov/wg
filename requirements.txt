@@ -1,0 +1,3 @@
+sqlalchemy
+dictdiffer
+nose

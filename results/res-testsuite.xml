@@ -1,0 +1,3189 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543260649480" stop="1543260649596">
+  <name>tests.test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543260649480" status="failed" stop="1543260649481">
+      <name>Check ship ship_0</name>
+      <failure>
+        <message>AssertionError: ship_0, engine_3 
+    expected engine_2, was engine_3ship_0, hull_4 
+    expected hull_2, was hull_4ship_0, weapon_11 
+    expected weapon_4, was weapon_11</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_0, engine_3 
+    expected engine_2, was engine_3ship_0, hull_4 
+    expected hull_2, was hull_4ship_0, weapon_11 
+    expected weapon_4, was weapon_11</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649481" status="failed" stop="1543260649482">
+      <name>Check ship ship_1</name>
+      <failure>
+        <message>AssertionError: ship_1, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_1, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649482" status="passed" stop="1543260649482">
+      <name>Check ship ship_2</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649482" status="failed" stop="1543260649483">
+      <name>Check ship ship_3</name>
+      <failure>
+        <message>AssertionError: ship_3, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_3, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649483" status="failed" stop="1543260649484">
+      <name>Check ship ship_4</name>
+      <failure>
+        <message>AssertionError: ship_4, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_4, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649484" status="passed" stop="1543260649484">
+      <name>Check ship ship_5</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649484" status="passed" stop="1543260649485">
+      <name>Check ship ship_6</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649485" status="passed" stop="1543260649485">
+      <name>Check ship ship_7</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649485" status="failed" stop="1543260649486">
+      <name>Check ship ship_8</name>
+      <failure>
+        <message>AssertionError: ship_8, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_8, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649486" status="failed" stop="1543260649486">
+      <name>Check ship ship_9</name>
+      <failure>
+        <message>AssertionError: ship_9, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_9, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649487" status="failed" stop="1543260649487">
+      <name>Check ship ship_10</name>
+      <failure>
+        <message>AssertionError: ship_10, engine_2 
+    expected engine_4, was engine_2ship_10, hull_1 
+    expected hull_4, was hull_1ship_10, weapon_16 
+    expected weapon_0, was weapon_16</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_10, engine_2 
+    expected engine_4, was engine_2ship_10, hull_1 
+    expected hull_4, was hull_1ship_10, weapon_16 
+    expected weapon_0, was weapon_16</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649487" status="failed" stop="1543260649487">
+      <name>Check ship ship_11</name>
+      <failure>
+        <message>AssertionError: ship_11, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_11, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649488" status="failed" stop="1543260649488">
+      <name>Check ship ship_12</name>
+      <failure>
+        <message>AssertionError: ship_12, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_12, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649488" status="passed" stop="1543260649489">
+      <name>Check ship ship_13</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649489" status="passed" stop="1543260649489">
+      <name>Check ship ship_14</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649489" status="failed" stop="1543260649490">
+      <name>Check ship ship_15</name>
+      <failure>
+        <message>AssertionError: ship_15, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_15, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649490" status="passed" stop="1543260649490">
+      <name>Check ship ship_16</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649490" status="failed" stop="1543260649491">
+      <name>Check ship ship_17</name>
+      <failure>
+        <message>AssertionError: ship_17, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_17, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649491" status="failed" stop="1543260649491">
+      <name>Check ship ship_18</name>
+      <failure>
+        <message>AssertionError: ship_18, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_18, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649492" status="passed" stop="1543260649492">
+      <name>Check ship ship_19</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649492" status="failed" stop="1543260649492">
+      <name>Check ship ship_20</name>
+      <failure>
+        <message>AssertionError: ship_20, engine_0 
+    expected engine_5, was engine_0ship_20, hull_1 
+    expected hull_4, was hull_1ship_20, weapon_12 
+    expected weapon_19, was weapon_12</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_20, engine_0 
+    expected engine_5, was engine_0ship_20, hull_1 
+    expected hull_4, was hull_1ship_20, weapon_12 
+    expected weapon_19, was weapon_12</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649493" status="failed" stop="1543260649493">
+      <name>Check ship ship_21</name>
+      <failure>
+        <message>AssertionError: ship_21, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_21, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649493" status="failed" stop="1543260649494">
+      <name>Check ship ship_22</name>
+      <failure>
+        <message>AssertionError: ship_22, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_22, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649494" status="passed" stop="1543260649494">
+      <name>Check ship ship_23</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649494" status="failed" stop="1543260649495">
+      <name>Check ship ship_24</name>
+      <failure>
+        <message>AssertionError: ship_24, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_24, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649495" status="failed" stop="1543260649495">
+      <name>Check ship ship_25</name>
+      <failure>
+        <message>AssertionError: ship_25, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_25, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649496" status="failed" stop="1543260649496">
+      <name>Check ship ship_26</name>
+      <failure>
+        <message>AssertionError: ship_26, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_26, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649496" status="passed" stop="1543260649497">
+      <name>Check ship ship_27</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649497" status="passed" stop="1543260649497">
+      <name>Check ship ship_28</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649497" status="failed" stop="1543260649498">
+      <name>Check ship ship_29</name>
+      <failure>
+        <message>AssertionError: ship_29, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_29, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649498" status="failed" stop="1543260649498">
+      <name>Check ship ship_30</name>
+      <failure>
+        <message>AssertionError: ship_30, hull_1 
+    expected hull_0, was hull_1</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_30, hull_1 
+    expected hull_0, was hull_1</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649498" status="failed" stop="1543260649499">
+      <name>Check ship ship_31</name>
+      <failure>
+        <message>AssertionError: ship_31, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_31, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649499" status="failed" stop="1543260649499">
+      <name>Check ship ship_32</name>
+      <failure>
+        <message>AssertionError: ship_32, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_32, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649499" status="failed" stop="1543260649500">
+      <name>Check ship ship_33</name>
+      <failure>
+        <message>AssertionError: ship_33, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_33, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649500" status="failed" stop="1543260649501">
+      <name>Check ship ship_34</name>
+      <failure>
+        <message>AssertionError: ship_34, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_34, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649501" status="failed" stop="1543260649501">
+      <name>Check ship ship_35</name>
+      <failure>
+        <message>AssertionError: ship_35, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_35, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649502" status="passed" stop="1543260649502">
+      <name>Check ship ship_36</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649502" status="failed" stop="1543260649502">
+      <name>Check ship ship_37</name>
+      <failure>
+        <message>AssertionError: ship_37, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_37, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649503" status="failed" stop="1543260649503">
+      <name>Check ship ship_38</name>
+      <failure>
+        <message>AssertionError: ship_38, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_38, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649503" status="failed" stop="1543260649504">
+      <name>Check ship ship_39</name>
+      <failure>
+        <message>AssertionError: ship_39, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_39, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649504" status="failed" stop="1543260649504">
+      <name>Check ship ship_40</name>
+      <failure>
+        <message>AssertionError: ship_40, hull_1 
+    expected hull_0, was hull_1ship_40, weapon_11 
+    expected weapon_5, was weapon_11</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_40, hull_1 
+    expected hull_0, was hull_1ship_40, weapon_11 
+    expected weapon_5, was weapon_11</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649504" status="failed" stop="1543260649505">
+      <name>Check ship ship_41</name>
+      <failure>
+        <message>AssertionError: ship_41, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_41, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649505" status="failed" stop="1543260649505">
+      <name>Check ship ship_42</name>
+      <failure>
+        <message>AssertionError: ship_42, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_42, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649506" status="failed" stop="1543260649506">
+      <name>Check ship ship_43</name>
+      <failure>
+        <message>AssertionError: ship_43, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_43, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649506" status="failed" stop="1543260649507">
+      <name>Check ship ship_44</name>
+      <failure>
+        <message>AssertionError: ship_44, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_44, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649507" status="failed" stop="1543260649507">
+      <name>Check ship ship_45</name>
+      <failure>
+        <message>AssertionError: ship_45, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_45, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649508" status="passed" stop="1543260649508">
+      <name>Check ship ship_46</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649508" status="passed" stop="1543260649508">
+      <name>Check ship ship_47</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649508" status="passed" stop="1543260649509">
+      <name>Check ship ship_48</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649509" status="passed" stop="1543260649509">
+      <name>Check ship ship_49</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649509" status="failed" stop="1543260649510">
+      <name>Check ship ship_50</name>
+      <failure>
+        <message>AssertionError: ship_50, engine_5 
+    expected engine_4, was engine_5ship_50, hull_3 
+    expected hull_4, was hull_3ship_50, weapon_5 
+    expected weapon_19, was weapon_5</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_50, engine_5 
+    expected engine_4, was engine_5ship_50, hull_3 
+    expected hull_4, was hull_3ship_50, weapon_5 
+    expected weapon_19, was weapon_5</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649510" status="passed" stop="1543260649510">
+      <name>Check ship ship_51</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649510" status="failed" stop="1543260649511">
+      <name>Check ship ship_52</name>
+      <failure>
+        <message>AssertionError: ship_52, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_52, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649512" status="passed" stop="1543260649512">
+      <name>Check ship ship_53</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649513" status="passed" stop="1543260649513">
+      <name>Check ship ship_54</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649513" status="passed" stop="1543260649513">
+      <name>Check ship ship_55</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649513" status="failed" stop="1543260649514">
+      <name>Check ship ship_56</name>
+      <failure>
+        <message>AssertionError: ship_56, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_56, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649514" status="failed" stop="1543260649515">
+      <name>Check ship ship_57</name>
+      <failure>
+        <message>AssertionError: ship_57, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_57, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649515" status="failed" stop="1543260649515">
+      <name>Check ship ship_58</name>
+      <failure>
+        <message>AssertionError: ship_58, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_58, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649515" status="passed" stop="1543260649516">
+      <name>Check ship ship_59</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649516" status="failed" stop="1543260649516">
+      <name>Check ship ship_60</name>
+      <failure>
+        <message>AssertionError: ship_60, engine_3 
+    expected engine_4, was engine_3</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_60, engine_3 
+    expected engine_4, was engine_3</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649516" status="failed" stop="1543260649517">
+      <name>Check ship ship_61</name>
+      <failure>
+        <message>AssertionError: ship_61, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_61, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649517" status="failed" stop="1543260649517">
+      <name>Check ship ship_62</name>
+      <failure>
+        <message>AssertionError: ship_62, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_62, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649518" status="passed" stop="1543260649518">
+      <name>Check ship ship_63</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649518" status="failed" stop="1543260649518">
+      <name>Check ship ship_64</name>
+      <failure>
+        <message>AssertionError: ship_64, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_64, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649519" status="passed" stop="1543260649519">
+      <name>Check ship ship_65</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649519" status="passed" stop="1543260649519">
+      <name>Check ship ship_66</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649520" status="passed" stop="1543260649520">
+      <name>Check ship ship_67</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649520" status="failed" stop="1543260649520">
+      <name>Check ship ship_68</name>
+      <failure>
+        <message>AssertionError: ship_68, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_68, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649521" status="failed" stop="1543260649521">
+      <name>Check ship ship_69</name>
+      <failure>
+        <message>AssertionError: ship_69, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_69, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649521" status="failed" stop="1543260649521">
+      <name>Check ship ship_70</name>
+      <failure>
+        <message>AssertionError: ship_70, hull_1 
+    expected hull_2, was hull_1ship_70, weapon_15 
+    expected weapon_2, was weapon_15</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_70, hull_1 
+    expected hull_2, was hull_1ship_70, weapon_15 
+    expected weapon_2, was weapon_15</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649522" status="passed" stop="1543260649522">
+      <name>Check ship ship_71</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649522" status="passed" stop="1543260649522">
+      <name>Check ship ship_72</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649522" status="failed" stop="1543260649523">
+      <name>Check ship ship_73</name>
+      <failure>
+        <message>AssertionError: ship_73, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_73, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649523" status="passed" stop="1543260649524">
+      <name>Check ship ship_74</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649524" status="failed" stop="1543260649524">
+      <name>Check ship ship_75</name>
+      <failure>
+        <message>AssertionError: ship_75, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_75, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649524" status="failed" stop="1543260649525">
+      <name>Check ship ship_76</name>
+      <failure>
+        <message>AssertionError: ship_76, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_76, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649525" status="failed" stop="1543260649526">
+      <name>Check ship ship_77</name>
+      <failure>
+        <message>AssertionError: ship_77, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_77, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649526" status="passed" stop="1543260649526">
+      <name>Check ship ship_78</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649526" status="failed" stop="1543260649527">
+      <name>Check ship ship_79</name>
+      <failure>
+        <message>AssertionError: ship_79, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_79, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649527" status="failed" stop="1543260649527">
+      <name>Check ship ship_80</name>
+      <failure>
+        <message>AssertionError: ship_80, hull_0 
+    expected hull_3, was hull_0ship_80, weapon_15 
+    expected weapon_7, was weapon_15</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_80, hull_0 
+    expected hull_3, was hull_0ship_80, weapon_15 
+    expected weapon_7, was weapon_15</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649527" status="failed" stop="1543260649528">
+      <name>Check ship ship_81</name>
+      <failure>
+        <message>AssertionError: ship_81, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_81, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649528" status="failed" stop="1543260649528">
+      <name>Check ship ship_82</name>
+      <failure>
+        <message>AssertionError: ship_82, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_82, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649528" status="passed" stop="1543260649529">
+      <name>Check ship ship_83</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649529" status="failed" stop="1543260649529">
+      <name>Check ship ship_84</name>
+      <failure>
+        <message>AssertionError: ship_84, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_84, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649530" status="failed" stop="1543260649530">
+      <name>Check ship ship_85</name>
+      <failure>
+        <message>AssertionError: ship_85, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_85, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649530" status="failed" stop="1543260649531">
+      <name>Check ship ship_86</name>
+      <failure>
+        <message>AssertionError: ship_86, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_86, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649531" status="failed" stop="1543260649531">
+      <name>Check ship ship_87</name>
+      <failure>
+        <message>AssertionError: ship_87, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_87, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649531" status="failed" stop="1543260649532">
+      <name>Check ship ship_88</name>
+      <failure>
+        <message>AssertionError: ship_88, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_88, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649532" status="failed" stop="1543260649532">
+      <name>Check ship ship_89</name>
+      <failure>
+        <message>AssertionError: ship_89, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_89, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649533" status="failed" stop="1543260649533">
+      <name>Check ship ship_90</name>
+      <failure>
+        <message>AssertionError: ship_90, engine_2 
+    expected engine_3, was engine_2ship_90, hull_1 
+    expected hull_3, was hull_1ship_90, weapon_9 
+    expected weapon_7, was weapon_9</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_90, engine_2 
+    expected engine_3, was engine_2ship_90, hull_1 
+    expected hull_3, was hull_1ship_90, weapon_9 
+    expected weapon_7, was weapon_9</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649533" status="failed" stop="1543260649534">
+      <name>Check ship ship_91</name>
+      <failure>
+        <message>AssertionError: ship_91, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_91, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649534" status="failed" stop="1543260649534">
+      <name>Check ship ship_92</name>
+      <failure>
+        <message>AssertionError: ship_92, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_92, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649534" status="failed" stop="1543260649535">
+      <name>Check ship ship_93</name>
+      <failure>
+        <message>AssertionError: ship_93, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_93, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649535" status="failed" stop="1543260649536">
+      <name>Check ship ship_94</name>
+      <failure>
+        <message>AssertionError: ship_94, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_94, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649536" status="passed" stop="1543260649536">
+      <name>Check ship ship_95</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649536" status="failed" stop="1543260649537">
+      <name>Check ship ship_96</name>
+      <failure>
+        <message>AssertionError: ship_96, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_96, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649537" status="failed" stop="1543260649538">
+      <name>Check ship ship_97</name>
+      <failure>
+        <message>AssertionError: ship_97, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_97, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649538" status="failed" stop="1543260649538">
+      <name>Check ship ship_98</name>
+      <failure>
+        <message>AssertionError: ship_98, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_98, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649538" status="passed" stop="1543260649539">
+      <name>Check ship ship_99</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649539" status="failed" stop="1543260649539">
+      <name>Check ship ship_100</name>
+      <failure>
+        <message>AssertionError: ship_100, engine_1 
+    expected engine_3, was engine_1ship_100, hull_1 
+    expected hull_0, was hull_1ship_100, weapon_1 
+    expected weapon_3, was weapon_1</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_100, engine_1 
+    expected engine_3, was engine_1ship_100, hull_1 
+    expected hull_0, was hull_1ship_100, weapon_1 
+    expected weapon_3, was weapon_1</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649539" status="failed" stop="1543260649540">
+      <name>Check ship ship_101</name>
+      <failure>
+        <message>AssertionError: ship_101, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_101, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649540" status="failed" stop="1543260649540">
+      <name>Check ship ship_102</name>
+      <failure>
+        <message>AssertionError: ship_102, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_102, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649541" status="passed" stop="1543260649541">
+      <name>Check ship ship_103</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649541" status="passed" stop="1543260649542">
+      <name>Check ship ship_104</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649542" status="passed" stop="1543260649542">
+      <name>Check ship ship_105</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649542" status="passed" stop="1543260649543">
+      <name>Check ship ship_106</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649543" status="passed" stop="1543260649543">
+      <name>Check ship ship_107</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649543" status="passed" stop="1543260649544">
+      <name>Check ship ship_108</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649544" status="failed" stop="1543260649544">
+      <name>Check ship ship_109</name>
+      <failure>
+        <message>AssertionError: ship_109, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_109, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649545" status="failed" stop="1543260649545">
+      <name>Check ship ship_110</name>
+      <failure>
+        <message>AssertionError: ship_110, weapon_8 
+    expected weapon_13, was weapon_8</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_110, weapon_8 
+    expected weapon_13, was weapon_8</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649546" status="passed" stop="1543260649546">
+      <name>Check ship ship_111</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649546" status="failed" stop="1543260649547">
+      <name>Check ship ship_112</name>
+      <failure>
+        <message>AssertionError: ship_112, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_112, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649547" status="failed" stop="1543260649548">
+      <name>Check ship ship_113</name>
+      <failure>
+        <message>AssertionError: ship_113, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_113, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649548" status="failed" stop="1543260649548">
+      <name>Check ship ship_114</name>
+      <failure>
+        <message>AssertionError: ship_114, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_114, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649548" status="failed" stop="1543260649549">
+      <name>Check ship ship_115</name>
+      <failure>
+        <message>AssertionError: ship_115, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_115, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649549" status="failed" stop="1543260649549">
+      <name>Check ship ship_116</name>
+      <failure>
+        <message>AssertionError: ship_116, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_116, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649550" status="failed" stop="1543260649550">
+      <name>Check ship ship_117</name>
+      <failure>
+        <message>AssertionError: ship_117, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_117, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649550" status="failed" stop="1543260649551">
+      <name>Check ship ship_118</name>
+      <failure>
+        <message>AssertionError: ship_118, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_118, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649551" status="passed" stop="1543260649551">
+      <name>Check ship ship_119</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649551" status="failed" stop="1543260649552">
+      <name>Check ship ship_120</name>
+      <failure>
+        <message>AssertionError: ship_120, engine_2 
+    expected engine_0, was engine_2ship_120, hull_4 
+    expected hull_0, was hull_4ship_120, weapon_2 
+    expected weapon_11, was weapon_2</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_120, engine_2 
+    expected engine_0, was engine_2ship_120, hull_4 
+    expected hull_0, was hull_4ship_120, weapon_2 
+    expected weapon_11, was weapon_2</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649552" status="passed" stop="1543260649552">
+      <name>Check ship ship_121</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649552" status="passed" stop="1543260649553">
+      <name>Check ship ship_122</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649553" status="failed" stop="1543260649553">
+      <name>Check ship ship_123</name>
+      <failure>
+        <message>AssertionError: ship_123, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_123, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649553" status="passed" stop="1543260649554">
+      <name>Check ship ship_124</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649554" status="passed" stop="1543260649554">
+      <name>Check ship ship_125</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649554" status="passed" stop="1543260649555">
+      <name>Check ship ship_126</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649555" status="passed" stop="1543260649555">
+      <name>Check ship ship_127</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649555" status="failed" stop="1543260649556">
+      <name>Check ship ship_128</name>
+      <failure>
+        <message>AssertionError: ship_128, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_128, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649556" status="failed" stop="1543260649556">
+      <name>Check ship ship_129</name>
+      <failure>
+        <message>AssertionError: ship_129, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_129, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649556" status="failed" stop="1543260649557">
+      <name>Check ship ship_130</name>
+      <failure>
+        <message>AssertionError: ship_130, engine_0 
+    expected engine_4, was engine_0ship_130, hull_3 
+    expected hull_4, was hull_3ship_130, weapon_19 
+    expected weapon_14, was weapon_19</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_130, engine_0 
+    expected engine_4, was engine_0ship_130, hull_3 
+    expected hull_4, was hull_3ship_130, weapon_19 
+    expected weapon_14, was weapon_19</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649557" status="failed" stop="1543260649557">
+      <name>Check ship ship_131</name>
+      <failure>
+        <message>AssertionError: ship_131, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_131, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649558" status="passed" stop="1543260649558">
+      <name>Check ship ship_132</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649558" status="passed" stop="1543260649558">
+      <name>Check ship ship_133</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649558" status="failed" stop="1543260649559">
+      <name>Check ship ship_134</name>
+      <failure>
+        <message>AssertionError: ship_134, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_134, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649559" status="failed" stop="1543260649560">
+      <name>Check ship ship_135</name>
+      <failure>
+        <message>AssertionError: ship_135, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_135, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649560" status="passed" stop="1543260649560">
+      <name>Check ship ship_136</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649560" status="failed" stop="1543260649561">
+      <name>Check ship ship_137</name>
+      <failure>
+        <message>AssertionError: ship_137, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_137, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649561" status="passed" stop="1543260649561">
+      <name>Check ship ship_138</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649561" status="failed" stop="1543260649562">
+      <name>Check ship ship_139</name>
+      <failure>
+        <message>AssertionError: ship_139, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_139, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649562" status="failed" stop="1543260649562">
+      <name>Check ship ship_140</name>
+      <failure>
+        <message>AssertionError: ship_140, engine_1 
+    expected engine_3, was engine_1ship_140, hull_4 
+    expected hull_2, was hull_4ship_140, weapon_15 
+    expected weapon_12, was weapon_15</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_140, engine_1 
+    expected engine_3, was engine_1ship_140, hull_4 
+    expected hull_2, was hull_4ship_140, weapon_15 
+    expected weapon_12, was weapon_15</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649562" status="passed" stop="1543260649563">
+      <name>Check ship ship_141</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649563" status="passed" stop="1543260649563">
+      <name>Check ship ship_142</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649563" status="failed" stop="1543260649564">
+      <name>Check ship ship_143</name>
+      <failure>
+        <message>AssertionError: ship_143, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_143, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649564" status="failed" stop="1543260649565">
+      <name>Check ship ship_144</name>
+      <failure>
+        <message>AssertionError: ship_144, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_144, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649565" status="passed" stop="1543260649565">
+      <name>Check ship ship_145</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649565" status="passed" stop="1543260649566">
+      <name>Check ship ship_146</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649566" status="passed" stop="1543260649566">
+      <name>Check ship ship_147</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649566" status="failed" stop="1543260649567">
+      <name>Check ship ship_148</name>
+      <failure>
+        <message>AssertionError: ship_148, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_148, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649567" status="failed" stop="1543260649567">
+      <name>Check ship ship_149</name>
+      <failure>
+        <message>AssertionError: ship_149, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_149, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649567" status="failed" stop="1543260649568">
+      <name>Check ship ship_150</name>
+      <failure>
+        <message>AssertionError: ship_150, engine_4 
+    expected engine_2, was engine_4ship_150, weapon_11 
+    expected weapon_0, was weapon_11</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_150, engine_4 
+    expected engine_2, was engine_4ship_150, weapon_11 
+    expected weapon_0, was weapon_11</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649568" status="passed" stop="1543260649568">
+      <name>Check ship ship_151</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649568" status="passed" stop="1543260649569">
+      <name>Check ship ship_152</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649569" status="failed" stop="1543260649569">
+      <name>Check ship ship_153</name>
+      <failure>
+        <message>AssertionError: ship_153, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_153, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649569" status="passed" stop="1543260649570">
+      <name>Check ship ship_154</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649570" status="failed" stop="1543260649570">
+      <name>Check ship ship_155</name>
+      <failure>
+        <message>AssertionError: ship_155, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_155, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649571" status="passed" stop="1543260649571">
+      <name>Check ship ship_156</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649571" status="passed" stop="1543260649571">
+      <name>Check ship ship_157</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649572" status="failed" stop="1543260649572">
+      <name>Check ship ship_158</name>
+      <failure>
+        <message>AssertionError: ship_158, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_158, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649572" status="passed" stop="1543260649573">
+      <name>Check ship ship_159</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649573" status="failed" stop="1543260649573">
+      <name>Check ship ship_160</name>
+      <failure>
+        <message>AssertionError: ship_160, engine_0 
+    expected engine_2, was engine_0ship_160, hull_0 
+    expected hull_3, was hull_0ship_160, weapon_18 
+    expected weapon_2, was weapon_18</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_160, engine_0 
+    expected engine_2, was engine_0ship_160, hull_0 
+    expected hull_3, was hull_0ship_160, weapon_18 
+    expected weapon_2, was weapon_18</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649573" status="failed" stop="1543260649574">
+      <name>Check ship ship_161</name>
+      <failure>
+        <message>AssertionError: ship_161, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_161, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649574" status="failed" stop="1543260649575">
+      <name>Check ship ship_162</name>
+      <failure>
+        <message>AssertionError: ship_162, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_162, weapon_5
+    diameter: expected 22, was 26
+    power_volley: expected 24, was 3
+    reload_speed: expected 619, was 157
+    rotational_speed: expected 769, was 614</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649576" status="failed" stop="1543260649576">
+      <name>Check ship ship_163</name>
+      <failure>
+        <message>AssertionError: ship_163, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_163, hull_0
+    armor: expected 18, was 68
+    capacity: expected 23, was 28</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649576" status="passed" stop="1543260649577">
+      <name>Check ship ship_164</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649577" status="failed" stop="1543260649577">
+      <name>Check ship ship_165</name>
+      <failure>
+        <message>AssertionError: ship_165, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_165, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649577" status="passed" stop="1543260649578">
+      <name>Check ship ship_166</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649578" status="passed" stop="1543260649578">
+      <name>Check ship ship_167</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649578" status="passed" stop="1543260649579">
+      <name>Check ship ship_168</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649579" status="passed" stop="1543260649579">
+      <name>Check ship ship_169</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649579" status="failed" stop="1543260649579">
+      <name>Check ship ship_170</name>
+      <failure>
+        <message>AssertionError: ship_170, engine_4 
+    expected engine_2, was engine_4ship_170, hull_0 
+    expected hull_2, was hull_0ship_170, weapon_8 
+    expected weapon_16, was weapon_8</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_170, engine_4 
+    expected engine_2, was engine_4ship_170, hull_0 
+    expected hull_2, was hull_0ship_170, weapon_8 
+    expected weapon_16, was weapon_8</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649580" status="passed" stop="1543260649580">
+      <name>Check ship ship_171</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649580" status="passed" stop="1543260649581">
+      <name>Check ship ship_172</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649581" status="passed" stop="1543260649581">
+      <name>Check ship ship_173</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649581" status="failed" stop="1543260649582">
+      <name>Check ship ship_174</name>
+      <failure>
+        <message>AssertionError: ship_174, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_174, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649582" status="passed" stop="1543260649582">
+      <name>Check ship ship_175</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649582" status="passed" stop="1543260649583">
+      <name>Check ship ship_176</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649583" status="failed" stop="1543260649583">
+      <name>Check ship ship_177</name>
+      <failure>
+        <message>AssertionError: ship_177, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_177, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649584" status="failed" stop="1543260649584">
+      <name>Check ship ship_178</name>
+      <failure>
+        <message>AssertionError: ship_178, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_178, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649584" status="failed" stop="1543260649585">
+      <name>Check ship ship_179</name>
+      <failure>
+        <message>AssertionError: ship_179, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_179, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649585" status="failed" stop="1543260649585">
+      <name>Check ship ship_180</name>
+      <failure>
+        <message>AssertionError: ship_180, engine_5 
+    expected engine_3, was engine_5ship_180, hull_0 
+    expected hull_4, was hull_0ship_180, weapon_6 
+    expected weapon_8, was weapon_6</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_180, engine_5 
+    expected engine_3, was engine_5ship_180, hull_0 
+    expected hull_4, was hull_0ship_180, weapon_6 
+    expected weapon_8, was weapon_6</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649585" status="failed" stop="1543260649586">
+      <name>Check ship ship_181</name>
+      <failure>
+        <message>AssertionError: ship_181, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_181, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649586" status="failed" stop="1543260649586">
+      <name>Check ship ship_182</name>
+      <failure>
+        <message>AssertionError: ship_182, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_182, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649587" status="passed" stop="1543260649587">
+      <name>Check ship ship_183</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649587" status="passed" stop="1543260649587">
+      <name>Check ship ship_184</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649587" status="failed" stop="1543260649588">
+      <name>Check ship ship_185</name>
+      <failure>
+        <message>AssertionError: ship_185, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_185, engine_0
+    type: expected 1, was 6
+    power: expected 77, was 51</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649588" status="passed" stop="1543260649588">
+      <name>Check ship ship_186</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649589" status="passed" stop="1543260649589">
+      <name>Check ship ship_187</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649589" status="passed" stop="1543260649589">
+      <name>Check ship ship_188</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649589" status="passed" stop="1543260649590">
+      <name>Check ship ship_189</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649590" status="failed" stop="1543260649590">
+      <name>Check ship ship_190</name>
+      <failure>
+        <message>AssertionError: ship_190, engine_5 
+    expected engine_3, was engine_5ship_190, hull_0 
+    expected hull_3, was hull_0ship_190, weapon_18 
+    expected weapon_4, was weapon_18</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_190, engine_5 
+    expected engine_3, was engine_5ship_190, hull_0 
+    expected hull_3, was hull_0ship_190, weapon_18 
+    expected weapon_4, was weapon_18</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649590" status="passed" stop="1543260649591">
+      <name>Check ship ship_191</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649591" status="failed" stop="1543260649591">
+      <name>Check ship ship_192</name>
+      <failure>
+        <message>AssertionError: ship_192, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_192, weapon_0
+    diameter: expected 25, was 4
+    power_volley: expected 0, was 15
+    reload_speed: expected 769, was 587
+    rotational_speed: expected 844, was 269</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649591" status="passed" stop="1543260649592">
+      <name>Check ship ship_193</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649592" status="failed" stop="1543260649592">
+      <name>Check ship ship_194</name>
+      <failure>
+        <message>AssertionError: ship_194, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_194, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649593" status="failed" stop="1543260649593">
+      <name>Check ship ship_195</name>
+      <failure>
+        <message>AssertionError: ship_195, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_195, weapon_10
+    diameter: expected 24, was 20
+    power_volley: expected 26, was 24
+    reload_speed: expected 7, was 431
+    rotational_speed: expected 895, was 272</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649593" status="failed" stop="1543260649594">
+      <name>Check ship ship_196</name>
+      <failure>
+        <message>AssertionError: ship_196, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_196, engine_5
+    type: expected 17, was 2
+    power: expected 73, was 0</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649594" status="passed" stop="1543260649594">
+      <name>Check ship ship_197</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649594" status="failed" stop="1543260649595">
+      <name>Check ship ship_198</name>
+      <failure>
+        <message>AssertionError: ship_198, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</message>
+        <stack-trace>Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/home/dima/envs/env2/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/dima/moex/moex/wargaming/tests/test.py", line 43, in __call__
+    raise AssertionError(res)
+AssertionError: ship_198, weapon_15
+    count: expected 0, was 2
+    diameter: expected 15, was 24
+    power_volley: expected 1, was 26
+    reload_speed: expected 976, was 647
+    rotational_speed: expected 125, was 506</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1543260649595" status="passed" stop="1543260649595">
+      <name>Check ship ship_199</name>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
